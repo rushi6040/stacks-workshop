@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: attendance-reward-dapp
+            expected-sender: ST1ZF771B7B7Y7ZPWCXMX1FA9NDJWKAA39Y9Z25KY
+            cost: 9780
+            path: "contracts\\attendance-reward-dapp.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
