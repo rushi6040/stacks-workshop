@@ -21,7 +21,7 @@ To build a decentralized, tamper-proof attendance system using Clarity on the St
 - Integrate with a frontend dApp for real-time attendance marking, badge viewing, and wallet interaction.  
 - Expand interoperability—e.g., display badges on external platforms or support cross-chain functionality.
 
-## 5. Contract Address  
-To be added after deployment on the Stacks testnet or mainnet.
+## 5. Contract Address  <img width="1833" height="877" alt="image" src="https://github.com/user-attachments/assets/eeb09c3f-a30a-47a0-8c4f-65b580d48ca7" />
 
+Contract Address : ST1ZF771B7B7Y7ZPWCXMX1FA9NDJWKAA39Y9Z25KY.attendance-reward-dapp
 ---
